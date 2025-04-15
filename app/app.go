@@ -10,4 +10,8 @@ import (
 func main() {
 	fmt.Println("Hello World !!")
 	tutorials.PrintsTutorial() // Call the exported function from the tutorials package
+	tutorials.PrintsVariable()
+	tutorials.PrintImplicitvsExplicit()
+	tutorials.PrintsDefaultValue()
+	tutorials.PrintsConsolAndFmt()
 }
