@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"strconv"
 )
 
 // The above code uses the bufio package to read input from the console.
@@ -14,4 +15,11 @@ func PrintsInput() {
 	scanner.Scan()
 	name := scanner.Text()
 	fmt.Println("Hello", name)
+
+	// different way to read integer input.
+	fmt.Printf("type the year you were born in : ")
+	scanner.Scan()
+	year, _ := strconv.ParseInt(scanner.Text(), 10, 64)
+	fmt.Printf("You were born in %d \n", year)
+	fmt.Println("Thank you !!")
 }

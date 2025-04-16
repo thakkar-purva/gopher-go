@@ -18,4 +18,7 @@ func main() {
 
 	fmt.Println("All about Scanner !!")
 	tutorials.PrintsInput()
+
+	fmt.Println("All about Arithmetic Operators !!")
+	tutorials.WorkwillArithmetics()
 }
