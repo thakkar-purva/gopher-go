@@ -21,4 +21,7 @@ func main() {
 
 	fmt.Println("All about Arithmetic Operators !!")
 	tutorials.WorkwillArithmetics()
+
+	fmt.Println("All about conditopns !!")
+	tutorials.WorkWithConditions()
 }
