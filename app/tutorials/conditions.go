@@ -7,6 +7,7 @@ import (
 	"strconv"
 )
 
+// public method
 func WorkWithConditions() {
 
 	scanner := bufio.NewScanner(os.Stdin)
