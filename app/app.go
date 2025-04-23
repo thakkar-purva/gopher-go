@@ -28,5 +28,7 @@ func main() {
 	// tutorials.WorkWithIfAndElses()
 
 	tutorials.WorkWithloops()
+	tutorials.WorkWithSwitch()
+	tutorials.WorkWithArrays()
 
 }
