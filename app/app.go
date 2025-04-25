@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"gopher-go/app/tutorials" // Import the tutorials package
 )
 
@@ -30,5 +31,14 @@ func main() {
 	tutorials.WorkWithloops()
 	tutorials.WorkWithSwitch()
 	tutorials.WorkWithArrays()
+
+	tutorials.WorkWithFunction()
+
+	tutorials.PrintsAdvFunction()
+
+	test := func() {
+		fmt.Println("Hello !!! ")
+	}
+	test()
 
 }
