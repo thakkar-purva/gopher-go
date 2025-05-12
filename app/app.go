@@ -5,6 +5,10 @@ import (
 	"gopher-go/app/tutorials" // Import the tutorials package
 )
 
+func test2(myFunc func(int) int) {
+	fmt.Println(myFunc(7))
+}
+
 // entry point for go project  NOTE: has to be main() method in main package
 // file name can be anything.
 func main() {
@@ -28,17 +32,21 @@ func main() {
 	// fmt.Println("work with id else conditions !!")
 	// tutorials.WorkWithIfAndElses()
 
-	tutorials.WorkWithloops()
-	tutorials.WorkWithSwitch()
-	tutorials.WorkWithArrays()
+	// tutorials.WorkWithloops()
+	// tutorials.WorkWithSwitch()
+	// tutorials.WorkWithArrays()
 
-	tutorials.WorkWithFunction()
+	// tutorials.WorkWithFunction()
 
-	tutorials.PrintsAdvFunction()
+	// tutorials.PrintsAdvFunction()
 
-	test := func() {
-		fmt.Println("Hello !!! ")
-	}
-	test()
+	// test := func(x int) int {
+	// 	return x * -1
+	// }
+
+	// test2(test)
+
+	tutorials.WorkWithPointers()
+	tutorials.WorkWithStructs()
 
 }
